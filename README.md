@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](https://prnt.sc/kkU5xSd51JUa)
+- [Screenshot](https://prnt.sc/kkU5xSd51JUa)
 
 ## My process
 
