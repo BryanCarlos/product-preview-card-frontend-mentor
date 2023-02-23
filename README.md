@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://prnt.sc/kkU5xSd51JUa)
+![Screenshot](https://prnt.sc/kkU5xSd51JUa)
 
 ## My process
 
@@ -56,4 +56,4 @@ For my future projects, I'll try to do the mobile first, so I can be better for 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/BryanCarlos)
+- Frontend Mentor - [@BryanCarlos](https://www.frontendmentor.io/profile/BryanCarlos)
