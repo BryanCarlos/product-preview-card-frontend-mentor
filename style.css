@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 700px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 5px 5px 5px hsla(0, 0%, 50%, 0.233);
+}
+
+.assets {
+  flex: 1;
+  overflow: hidden;
+}
+
+.assets img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.product {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.productType {
+  letter-spacing: 3px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 15px;
+}
+
+.productName {
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.productDescription {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 35px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.newPrice {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces';
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.oldPrice {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+
+.confirmButton {
+  width: 100%;
+  height: 50px;
+  border: transparent;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.confirmButton img {
+  width: 15px;
+  height: 15px;
+}
+
+.confirmButton:hover {
+  background-color: hsl(212, 21%, 14%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
